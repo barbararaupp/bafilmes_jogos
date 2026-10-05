@@ -1,0 +1,26 @@
+### Teste Health Check
+GET http://localhost:3000/
+
+### Cadastrar Filme
+POST http://localhost:3000/filmes
+Content-Type: application/json
+
+{
+  "titulo": "Matrix",
+  "genero": "Ficção Científica"
+}
+
+### Listar Filmes
+GET http://localhost:3000/filmes
+
+### Cadastrar Jogo
+POST http://localhost:3000/jogos
+Content-Type: application/json
+
+{
+  "nome": "The Witcher 3",
+  "plataforma": "PC"
+}
+
+### Listar Jogos
+GET http://localhost:3000/jogos
